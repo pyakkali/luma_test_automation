@@ -5,8 +5,8 @@ from test_case_class import TestCase
 import prop
 import random
 import string
-from signup import SignupPage
-from my_account_page import MyAccountPage
+from pages.signup import SignupPage
+from pages.my_account_page import MyAccountPage
 from flaky import flaky
 from selenium import webdriver
 from datetime import datetime

@@ -5,12 +5,12 @@ from test_case_class import TestCase
 import prop
 import random
 import string
-from signup import SignupPage
-from products_page import ProductPage
-from signin import SignInPage
-from signup import SignupPage
-from product_detail_page import ProductDetailPage
-from my_account_page import MyAccountPage
+from pages.signup import SignupPage
+from pages.products_page import ProductPage
+from pages.signin import SignInPage
+from pages.signup import SignupPage
+from pages.product_detail_page import ProductDetailPage
+from pages.my_account_page import MyAccountPage
 from flaky import flaky
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
