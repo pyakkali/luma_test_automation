@@ -20,10 +20,6 @@ import pytest
 
 class TestCheckout(TestCase):
     def setUp(self):
-
-        # self.driver = start_driver(
-        #     command_executor=prop.webdriver_url,
-        #     desired_capabilities=prop.support_browser[prop.browser])
         options = webdriver.ChromeOptions()
         options.add_argument("--start-maximized")
         self.driver = webdriver.Chrome(options=options)
